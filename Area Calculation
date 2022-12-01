@@ -1,0 +1,29 @@
+import java.util.Scanner;
+public class Area
+{
+    public static void main(String args[])
+    {
+        //write your code
+        Scanner sc=new Scanner(System.in);
+        int s,l,b,sq2,sq3;
+        float r;
+        double pi=3.14,sq1;
+       
+        s=sc.nextInt();//side of square
+        
+        l=sc.nextInt();//length of rectangle in integer
+        b=sc.nextInt();//radius of a circle 
+        r=sc.nextFloat();//radius of a circle 
+        sq1=pi*r*r;//area of circle
+        sq2=l*b;//area of rectangle
+        sq3=s*s;//area of square
+        System.out.println(sq3);
+        System.out.println(sq2);
+        System.out.printf("%.2f",sq1);
+        
+        
+        
+       
+        
+    }
+}
