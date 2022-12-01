@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Simple
+{
+    public static void main(String args[])
+    {
+        //write your code
+        Scanner sc=new Scanner(System.in);
+        int p,y;//p= principle amount y= years 
+        float in,sp;//in=intrest
+        p=sc.nextInt();
+        y=sc.nextInt();
+        in=sc.nextFloat();
+        sp=p*y*in/100;
+        System.out.printf("%.2f",sp);
+        
+    }
+}
