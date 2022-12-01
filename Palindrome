@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class Palindrome
+{
+  public static void main(String[] args) 
+  {
+    Scanner sc=new Scanner(System.in);
+    int num=sc.nextInt();
+    int degit=0,temp=0;
+    int org=num;
+    while(num>0)
+    {
+        degit=num%10;
+        num=num/10;
+        temp=temp*10+degit;
+    }
+    if(org==temp)
+    {
+        
+        System.out.println("Palindrome");
+    }
+    else 
+    {
+        System.out.println("Not a Palindrome");
+    }
+  }
+}
