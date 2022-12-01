@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class Fence
+{
+    public static void main(String args[])
+    {
+        //write your code
+        Scanner sc=new Scanner(System.in);
+        int l,b,c;
+        l=sc.nextInt();//length of the rectangular ground
+        b=sc.nextInt();//bredth of the rectangular ground
+        c=(2*l)+(2*b);//length of the rope
+        System.out.printf("Required length is %d m\n",c);
+        System.out.printf("Required quantity of carpet is %d sqm",l*b);
+        
+        }
+}
